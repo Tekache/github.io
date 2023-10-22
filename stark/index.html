@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>getstark</title>
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -15,7 +16,7 @@
     <div style="background-color: #381fd1;">
 
 
-        <header>
+        <!-- <header>
             <div class="toggle-btn" onclick="myfunctions">
                 <span></span>
                 <span></span>
@@ -37,6 +38,82 @@
                 </ul>
             </nav>
         </header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav> --> 
+
+          <header>
+            <div class="navbar">
+                <a href="#" class="nav-branding">
+                    <img style="height: 60px; margin-left: 90px;" src="/logo.png" alt="logo">
+                </a>
+
+                    <ul class="nav-menu" style="margin-right: 100px;">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">PRODUCT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">LIBRARY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">SURPPORT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">LOGIN</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </a>
+            </div>
+          </header>
 
         <div class="container">
             <div class="row">
@@ -55,7 +132,7 @@
                     <a class="btn mt-3 mb-5" style="color: #fedb63; border-color: #fedb63;" href="#">Contact Sales</a>
                 </div>
 
-                <div class="col-6 Screenshot''''''''">
+                <div class="col-6 Screenshot">
                     <img  src="/Screenshot_20230910_131228-removebg-preview.png"
                         alt="Screenshot_20230910_131228-removebg-preview">
                 </div>
@@ -81,12 +158,14 @@
     </p>
 
     <div class="vid">
-        <video class="content" controls src="https://youtu.be/xaOR7IosZng?si=ycAS1walLCkO-cBv" width="90%"></video>
+        <!-- <video class="content" controls src="https://youtu.be/xaOR7IosZng?si=ycAS1walLCkO-cBv" width="90%"></video> -->
+        <iframe width="90%" style="height: 500px; border-radius: 50px;" src="https://www.youtube.com/embed/gMsQO5u7-NQ?si=LzxKN9zfLiCrzvTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div class="speed text-center">
         <h3>Speed up your accessibility <br>
-            workflow from months <span>to minutes </span< /h3>
+            workflow from months <span>to minutes </span>
+        </h3>
     </div>
 
 
@@ -297,6 +376,7 @@
         </div>
     </div>
 
+    <script src="/java.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
